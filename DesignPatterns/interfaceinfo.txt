@@ -1,0 +1,15 @@
+1) interface is the code that is used to create an interface in java.
+2) We can’t instantiate an interface in java.
+3) Interface provides absolute abstraction, in last post we learned about abstract classes in java 
+to provide abstraction but abstract classes can have method implementations but interface can’t.
+4) Interfaces can’t have constructors because we can’t instantiate them and interfaces can’t have a method with body.
+5) By default any attribute of interface is public, static and final, so we don’t need to provide 
+access modifiers to the attributes but if we do, compiler doesn’t complain about it either.
+6) By default interface methods are implicitly abstract and public, it makes total sense because 
+the method don’t have body and so that subclasses can provide the method implementation.
+7) An interface can’t extend any class but it can extend another interface. public interface Shape extends Cloneable{} 
+is an example of an interface extending another interface.
+ Actually java provides multiple inheritance in interfaces, what is means is that an interface can extend multiple interfaces.
+8) implements keyword is used by classes to implement an interface.
+9) A class implementing an interface must provide implementation for all of its method unless it’s an abstract class. For example, we can implement above interface in abstract class like this:
+ShapeAbs.java

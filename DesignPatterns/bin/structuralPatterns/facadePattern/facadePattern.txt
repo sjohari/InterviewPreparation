@@ -1,0 +1,23 @@
+
+The facade design pattern is a means to hide the complexity of a subsystem 
+by encapsulating it behind a unifying wrapper called a facade class
+
+
+removes the need for client classes to manage a subsystem on their own, 
+resulting in less coupling between the subsystem and the client classes
+
+
+handles instantiation and redirection of tasks to the appropriate class within the subsystem
+provides client classes with a simplified interface for the subsystem; 
+
+
+
+acts simply as a point of entry to a subsystem and does not add more functionality to the subsystem.
+
+The facade design pattern is a way to provide client classes with an 
+easier means of interacting with the parts of your system. 
+
+
+Complex subsystems can be difficult to use and navigate. 
+By providing a simpler interface through a facade, 
+client classes will have an easier time successfully using your software.
